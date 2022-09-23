@@ -52,7 +52,7 @@ function draw() {
   pop();
 
   for (var i = 0; i < balls.length; i++) {
-    showCannonBalls(balls[i]);
+    showCannonBalls(balls[i],i);
     collisionWithBoat(i);
   }
   showBoats();
@@ -69,7 +69,7 @@ function keyPressed() {
   }
 }
 
-function showCannonBalls(ball) {
+function showCannonBalls(ball,index) {
   if (ball) {
     ball.display();
   }
