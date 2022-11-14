@@ -1,2 +1,2 @@
 # PRO-C22-SA-Boilerplate_code
-Boilerplate code for student  
+Template da Ativ Aluno 1 - Aula C26 (1-1)
